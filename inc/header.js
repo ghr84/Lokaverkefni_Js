@@ -65,7 +65,7 @@ header.innerHTML = `
             </div>
             <div class="lang">
                 <a href="#" title="íslenska/enska">
-                    <img src="img/Fáni-btn.svg">
+                    <img src="img/Fani-btn.svg">
                 </a>
             </div>
         </div>
@@ -274,6 +274,7 @@ burger_menu = function(){
         </div>
     </nav>
         `
+
     
     }
 
