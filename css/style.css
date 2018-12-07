@@ -302,6 +302,7 @@
     font-size: 18px;
     letter-spacing: 4%;
     margin-top: 8px;
+    line-height: 20px;
 }
 
 .hamb_card .price {
@@ -734,6 +735,7 @@ footer .mobile_footer {
     flex-direction: column;
     justify-content: space-between;
     background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
    
 }
 .mobile_hamb_menu .mobile_hamb_container h2 {

@@ -1,3 +1,5 @@
+//Function sem hleður inn html kóða þegar ýtt er á "Um Okkur" hnapp.
+
 var umOkkurBtn = document.querySelector(".button_3");
 var main = document.querySelector(".main");
 

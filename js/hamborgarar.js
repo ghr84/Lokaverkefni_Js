@@ -1,4 +1,7 @@
+
 var hamb_container = document.querySelector(".hamb_container");
+
+// Array[] af objectum{} sem innihalda properties: 
 
 var burger_card = [
     {
@@ -31,6 +34,8 @@ var burger_card = [
 var main = document.querySelector(".main");
 var btn_1 = document.querySelector(".button");
 
+//Function sem er kallað á í header með því að ýta á viðeigandi hnapp(matseðill->borgarar) og hleður inn main contenti. 
+
 var burgerPage = function(){
     main.innerHTML = `
     <div class="banner">
@@ -44,11 +49,12 @@ var burgerPage = function(){
     </section>
     <section>
         <div class="hamb_container">
-            <script src="js/hamborgarar.js"></script>
         </div>
     </section>
 `
 var hamb_container = document.querySelector(".hamb_container");
+
+//For loop-a sem keyrist þegar kallað er á function-ið burgerPage með því að ýta á viðeigandi hnapp(matseðill->borgarar). 
 
 for (var i = 0; i < burger_card.length; i++) {
     hamb_container.innerHTML +=

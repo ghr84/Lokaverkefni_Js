@@ -1,5 +1,7 @@
+//Html kóði fyrir "heim" hnapp í hamburger menu
+
 var main = document.querySelector(".main")
-function homePage(event){
+function homePage(event){                       //parameter sem tekur inn argument-ið; "Gleðistund 16:00-18:00" 
     event = "Gleðistund 16:00-18:00";
     main.innerHTML = `
     <!DOCTYPE html>

@@ -1,3 +1,5 @@
+//Html kóði fyrir <footer> 
+
 var footer = document.querySelector("footer");
 
 footer.innerHTML = `
@@ -34,8 +36,12 @@ footer.innerHTML = `
                 <img class="wakeup" src="img/WakeUp.svg" alt="Wake up Reykjavík merki og hlekkur"/>
             </div>
             <div>
-                <img class="fb_logo" src="img/Fb_footer.svg" alt="Facebook merki og hlekkur">
-                <img src="img/Ig_footer.svg" alt="Instagram merki og hlekkur">
+                <a href="https://www.facebook.com/islenski/" title="Facebook hlekkur">
+                    <img class="fb_logo" src="img/Fb_footer.svg" alt="Facebook merki og hlekkur">
+                </a>
+                <a href="https://www.instagram.com/islenskibarinn/" title="Instagram hlekkur">
+                    <img src="img/Ig_footer.svg" alt="Instagram merki og hlekkur">
+                </a>
             </div>
         </div>
     </div>
@@ -69,12 +75,12 @@ footer.innerHTML = `
 </section>
 <div class="sub_footer">
     <div>
-        <a href="#" title="Facebook hlekkur">
+        <a href="https://www.facebook.com/islenski/" title="Facebook hlekkur">
             <img src="img/Facebook_mobilefooter.svg" alt="facebook hlekkur"/>
         </a>
     </div>
     <div>
-        <a href="#" title="Instagram hlekkur">
+        <a href="https://www.instagram.com/islenskibarinn/" title="Instagram hlekkur">
             <img src="img/Instagram_mobilefooter.svg" alt="instagram hlekkur">
         </a>
     </div>  

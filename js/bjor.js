@@ -1,5 +1,8 @@
 var bjor_container = document.querySelector(".bjor_container");
 
+// Array[] af objectum{} sem innihalda properties: 
+
+
 var bjor_card = [
     {
         h2: "Einstök White ale",
@@ -71,6 +74,8 @@ var bjor_card_2 = [
 ]
 
 var main = document.querySelector(".main");
+
+//Function sem er kallað á í header með því að ýta á viðeigandi hnapp(Drykkir->bjór) og hleður inn main contenti.
 
 var bjorPage = function(){
     main.innerHTML = `

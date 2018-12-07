@@ -1,6 +1,7 @@
 
-var header = document.querySelector("header");
+//Html kóði fyrir <header> 
 
+var header = document.querySelector("header");
 header.innerHTML = `
 <nav>
     <div class="header_contact">
@@ -30,7 +31,7 @@ header.innerHTML = `
                     </a>
                 </div>
                 <div>
-                    <a href="#" title="Instagram hlekkur">
+                    <a href="https://www.instagram.com/islenskibarinn/" title="Instagram hlekkur">
                         <img src="img/Instagram.svg" alt="instagram hlekkur">
                     </a>
                 </div>  
@@ -72,6 +73,9 @@ header.innerHTML = `
     </div>
 </nav>    
 `
+
+//Dropdown menu fyrir "matseðill"
+
 var btn_1 = document.querySelector(".button");
 var dropDown_mats = function (){
       
@@ -106,7 +110,10 @@ var dropDown_mats = function (){
         btn_brg.onclick = burgerPage;  //Kallar á fallið: burger_page sem loopar spjöldum úr array af objects + setur inn html fyrir hamborgara síðu 
     }
 }
-btn_1.onclick = dropDown_mats;
+btn_1.onclick = dropDown_mats; //Kallar á fallið dropDown_mats sem virkjar dropdown menu "Matseðill"
+
+
+//Dropdown menu fyrir "Drykkir"
 
 var btn_2 = document.querySelector(".button_2");
 var dropDown_drykkir = function (){
@@ -140,10 +147,12 @@ var dropDown_drykkir = function (){
         btn_bjor.onclick = bjorPage;             //Kallar á fallið: bjorPage sem loopar spjöldum úr array af objects + setur inn html fyrir bjórsíðu 
     }
 }
-btn_2.onclick = dropDown_drykkir;
+btn_2.onclick = dropDown_drykkir; //Kallar á fallið dropDown_drykkir sem virkjar dropdown menu "Drykkir"
 
 
-var myDiv_2 = document.querySelector(".search_results")
+// Leitarvirkni 
+
+var myDiv_2 = document.querySelector(".search_results");
 var myDiv = document.querySelector(".main");
 var leit = document.querySelector("input");
 leit.onkeyup = function(){
@@ -166,6 +175,8 @@ leit.onkeyup = function(){
     }
   
 }
+
+//Drop down menu fyrir hamburger menu.
 
 var burger_btn = document.querySelector(".hamb_menu");
 var headerMain = document.querySelector(".header_main");
@@ -218,7 +229,7 @@ var burger_menu = function (){
             btn_umokkur.onclick = umOkkur;
     }
 }
-burger_btn.onclick = burger_menu;
+burger_btn.onclick = burger_menu; //onclick event sem keyrir functionið burger_menu.
 
 
 
