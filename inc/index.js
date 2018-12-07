@@ -1,0 +1,71 @@
+var main = document.querySelector(".main")
+function homePage(event){
+    event = "Gleðistund 16:00-18:00";
+    main.innerHTML = `
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css"/>
+            <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+            <title>
+                Íslenski barinn
+            </title>
+        </head>
+        <body>
+            <div id="fb-root">
+                <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+            </div>   
+            <header>
+            </header>
+            <section class="main">
+                <div class="banner">
+                    <div class="info_box">
+                        <div class="info_gledi">${event}</div>
+                    </div>
+                    <div role="img" alt="mynd af tómum borðum á veitingastað" class="banner_img"></div>
+                </div>
+                <section class="info">
+                    <div class="info_text">
+                        <h1>Íslenski barinn</h1>
+                        <p>“Bjóða upp á matseðil innblásinn af íslenskum hefðum en um leið framreiddur með nýstárlegum hætti. Og að gera íslenskri ölgerð og áfengishefð hátt undir höfði og um leið veita persónulega og góða þjónustu.” </p>
+                    </div>    
+                </section>
+                <div class="search_results">
+                    <div class="banner_2">
+                        <div role="img" alt="mynd af steiktum humar og salati á disk" class="banner_2_img"></div>
+                    </div>
+                    <section class="info">
+                        <div class="info_text">
+                            <h1>Réttir dagsins</h1>
+                            <p>“Bjóða upp á matseðil innblásinn af íslenskum hefðum en um leið framreiddur með nýstárlegum hætti. Og að gera íslenskri ölgerð og áfengishefð hátt undir höfði og um leið veita persónulega og góða þjónustu.” </p>
+                        </div>    
+                    </section>
+                    <section>
+                        <div class="info_rettir">
+                            <div class="fb-page" data-href="https://www.facebook.com/islenski/" data-tabs="timeline" data-width="385" data-height="282" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/islenski/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/islenski/">Íslenski Barinn - The Icelandic Bar</a></blockquote></div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            
+            <footer></footer>
+            <script src="inc/footer.js"></script>
+            <script src="inc/header.js"></script>
+            <script src="js/banner.js"></script>
+            <script src="js/hamborgarar.js"></script>
+            <script src="js/bjor.js"></script>
+            <script src="js/umOkkur.js"></script>
+        </body>
+    </html>
+    
+    `
+}

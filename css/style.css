@@ -1,0 +1,1372 @@
+
+
+
+/*////////// Top Header //////////*/
+
+.header_contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_contact {
+    width: 100%;
+    height: 28px;
+    background-color: #2F2B2C;
+}
+
+.content_left {
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+.content_left p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    display: inline-block;
+    
+}
+
+.content_left a {
+    padding-right: 26px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.content_left .postur_kort {
+    margin-bottom: -4px;
+}
+
+.content_left div {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    /* display: inline;      
+    height: 28px; */
+}
+
+.content_right {
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.content_right a {
+    padding-left: 18px;        
+}
+
+.content_right div {
+    display: inline;
+}
+
+/*////////// Main Header //////////*/
+
+.hamb_menu {
+    background-image: url(../img/Hamb_menu.svg);
+    height: 12px; 
+    width: 20px;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 242px;
+    margin: 0 auto;
+}
+.header_main .main_content_left {
+    display: flex;
+    margin-left: 78px;
+}
+.header_main .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 33px;
+    margin-right: 3px;    
+}
+
+.header_main .button_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 33px;
+}
+
+.header_main div {
+    display: inline;
+}
+
+.header_main .main_content_right {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+}
+
+.header_main a {
+    text-decoration: none;
+    color: #2F2B2C;
+}
+
+.header_main button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    height: 33px;
+    width: 134px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.header_main .button img {
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.header_main .button_2 img {
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.main_content_right button {
+    width: 108px;
+    height: 33px;
+    cursor: pointer;
+} 
+
+.main_content_right input {
+    height: 22px;
+    width: 126px; 
+    border-radius: 6px;
+    border: none;
+    box-shadow: 1px 1px 8px 1px #a0a0a0 inset;
+}
+
+/*////////// Main content forsíða //////////*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-height: 501px;
+    width: 100%;
+}
+
+.info_box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 213px;
+    width: 338px;
+    background-color: rgba(47, 43, 44, 0.75);    
+}
+.info_gledi {
+    color: #FFFFFF; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 56px;
+    text-align: center;
+}
+
+.banner .banner_img {
+    background-image: url(../img/banner.jpg);
+    height: 501px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner_2 {
+    max-height: 410px;
+    width: 100%;
+}
+
+.banner_2 .banner_2_img {
+    background-image: url(../img/rettirdagsins.jpg);
+    height: 410px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 322px;
+    width: 100%;
+    background-color: #2F2B2C;
+    color: #FFFFFF;
+}
+
+.info .info_text {
+    width: 41.4%;
+    height: 196px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.info .info_text h1 {
+    font-size: 64px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.info .info_text p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.info_rettir {
+    margin: 87px auto;
+    width: 385px;
+    overflow: hidden;
+}
+
+.info_rettir span, .info_rettir iframe {
+    margin: 0 auto;
+    height: 282px !important;
+    width: 476px !important;
+}
+
+/*////////// Main content hamborgarar //////////*/
+
+.banner .hamb_banner_img {
+    background-image: url(../img/hamborgari.jpg);
+    height: 501px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hamb_container .hamb_card .product_img {
+    background-image: url(../img/hamborgari.jpg);
+    height: 233px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hamb_container {
+    width: 71%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hamb_card {
+    position: relative;
+    box-sizing: border-box;
+    width: 347px;
+    height: 419px;
+    margin: 5px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.35);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #2F2B2C;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.hamb_card img {
+    background-color: #2F2B2C;
+
+}
+
+.hamb_card .text {
+    box-sizing: border-box;
+    height: 144px;
+}
+
+.hamb_card h3 {
+    margin-top: 7px;
+    font-size: 24px;    
+    letter-spacing: 4%;
+}
+
+.hamb_card .text p {
+    height: 155px;
+    width: 82%;
+    margin: 0 auto;
+    font-size: 18px;
+    letter-spacing: 4%;
+    margin-top: 8px;
+}
+
+.hamb_card .price {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    border-radius: 0 0 4px 4px;
+    background-color: #9CC4BF;
+}
+
+/*////////// Main content Bjór //////////*/
+
+.banner .banner_img_bjor {
+    background-image: url(../img/bjor_banner.jpg);
+    height: 501px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+.bjor_container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    justify-content: space-evenly;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bjor_card {
+    height: 344px;
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.35);
+}
+
+.bjor_card .top_box {
+    height: 128px;
+    background-color: #2F2B2C;  
+}
+
+.bjor_card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 128px;
+}
+
+.bjor_txt_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 216px;
+    font-size: 40px;
+    color: #2F2B2C;
+}
+
+.season_logo {
+    margin-left: 10px;
+    margin-top: -25px;
+    background-image: url(../img/gledi.svg);
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.season_logo_1 {
+    margin-left: -48px;
+    margin-top: -25px;
+    background-image: url(../img/gledi.svg);
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.season_logo_2 {
+    margin-left: 60px;
+    margin-top: -104px;
+    background-image: url(../img/arstid_2.svg);
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.line {
+    background-image: url(../img/lina.svg);
+    height: 174px;
+    width: 3px;
+}
+
+.bjor_info {
+    width: 40%;
+    height: 75%;
+}
+.bjor_info .p_pos {
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: -1px;
+}
+
+#price_margin {
+    height: 33.3333%;
+    display: inline-block;
+    margin-left: -18px;
+}
+
+.bjor_card p {
+    height: 33.3333%;
+}
+
+/*////////// Main content Um okkur //////////*/
+
+.banner .banner_img_umokkur {
+    background-image: url(../img/umokkur.jpg);
+    height: 501px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.umokkur_wrapper {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.umokkur_wrapper .top_content {
+    height: 868px;
+    width: 100%;
+    position: relative;
+}
+
+.top_content_pic {
+    position: absolute;
+    height: 375px;
+    width: 375px;
+    top: 104px;
+    z-index: 1;
+    background-image: url(../img/dora.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.top_content .blue_box {
+    position: absolute;
+    left: 90px;
+    top: 426px;
+    height: 488px;
+    width: 888px;
+    background-color: #24418F;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.blue_box .txt_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    margin: 0 auto;
+    height: 488px;
+    width: 57%;
+}
+
+.umokkur_wrapper .top_content .blue_box .txt_box h2 {
+    font-size: 64px;
+    margin-top: 75px;
+}
+
+.top_content .blue_box .txt_box p {
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 85px;
+    text-align: left;
+}
+
+.top_content_1 {
+    width: 100%;
+    height: 614.5px;
+    position: relative;
+}
+.top_content_1_pic {
+    height:  614.5px;
+    width: 411px;
+    background-image: url(../img/daelur.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: absolute; 
+    left: 700px;
+    z-index: 3;
+}
+
+.bottom_content {
+    position: relative;
+    width: 100%;
+    height: 800px;
+
+}
+.red_box {
+    position: absolute;
+    left:400px;
+    top: -44px;
+    height: 844px;
+    width: 583px;
+    background-color: #C4151F;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.red_box .txt_box_1 {
+    margin: 0 auto;
+    height: 844px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.red_box .txt_box_1 h2 {
+    font-size: 64px;
+    margin-top: 75px;
+}
+
+.red_box .txt_box_1 p {
+    margin: 80px auto;
+    width: 64%;
+    text-align: left;   
+}
+
+.bottom_content_1 {
+    width: 100%;
+    position: relative;
+    height: 407px;
+}
+.bottom_content_1 .bottom_content_pic {
+    height: 453px;
+    width: 624px;
+    margin-top: -46px;
+    background-image: url(../img/islenski.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    position: absolute; 
+    z-index: 3;    
+}
+
+/*////////// Footer //////////*/
+
+.footer {
+    width: 100%;
+    height: 322px;
+    background-color: #2F2B2C;
+    color: #FFFFFF;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 322px;
+}
+
+.footer_content_left {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+
+.footer_content_left h3 {
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+.footer_content_left p {
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.footer_content_center {
+    display: flex;
+    align-self: center;
+    height: 219px;
+    width: 458px;
+    margin-left: 50px;
+    background-color: #FFFFFF;
+    border: 4px solid #413E3E;
+}
+
+.footer_content_center .mapouter {
+    text-align: right;
+    height:219px; 
+    width:458px;
+}
+.footer_content_center .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:219px;
+    width:458px;
+}
+
+.footer_content_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 64%;
+    align-self: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer_content_right .simi_postur {
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+}
+
+.simi_postur .margin {
+    margin-top: -3px;
+}
+
+.footer_content_right p {
+    margin-bottom: 16px;
+}
+
+.footer_content_right .trip {
+    margin-left: -28px;
+}
+
+.footer_content_right .wakeup {
+    margin-bottom: 22px;
+}
+
+.footer_content_right p {
+    display: inline;
+}
+
+.trip_wakeup {
+    margin-bottom: -8px;
+}
+
+.fb_logo {
+    margin-right: 8px;
+}
+
+/*////////// Mobile Footer //////////*/
+
+footer .mobile_footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F2B2C;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    height: 210px;
+    padding: 0px 10px 0 10px;
+}
+.mobile_footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mobile_footer_left h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.mobile_footer_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;    
+}
+.mobile_footer_right .simi_postur {
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+}
+.mobile_footer_right .trip {
+    margin-bottom: -22px;    
+}
+.sub_footer {
+    
+    height: 38px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub_footer img {
+    height: 32px;
+}
+.sub_footer div {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px;   
+}
+
+/*////////// Hamburger-menu //////////*/
+
+.mobile_hamb_menu .mobile_hamb_container .x_btn {
+    width: 20px;
+    display: inline;
+    background-image: url(../img/hamb_x.svg);
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-left: 19px;
+}
+.mobile_hamb_menu {
+    font-family: 'Roboto Condensed', sans-serif;    
+    color: #2F2B2C;
+}
+.mobile_hamb_menu .mobile_hamb_container {
+    width: 94.27px;
+    height: 300px;
+    margin-top: -65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.mobile_hamb_menu .mobile_hamb_container h2 {
+    font-size: 24px;   
+    font-weight: 600;
+}
+.mobile_hamb_menu .mobile_hamb_container p, h2 {
+    cursor: pointer;
+}
+
+/*////////// Drop-down menus //////////*/
+
+body .menu_dropdown_container {
+    width: 138px;
+    margin: 97px 0 0 3px;
+    cursor: pointer;
+}
+
+body .menu_dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    height: 130px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2F2B2C;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+body .dropdown_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 33px;
+    margin-right: 3px;   
+    font-size: 24px; 
+    font-weight: 300;
+}
+
+.menu_dropdown p {
+    font-weight: 300;
+    text-align: right;
+    margin-right: 21px;
+}
+
+.menu_dropdown h2 {
+    padding: 1px 11px 2px 11px;
+}
+
+.dropdown_header img {
+    padding-left: 10px;
+}
+
+/*// Drop-down 2 //*/
+
+body .menu_dropdown_container_2 {
+    width: 110px;
+    margin-top: 58px;
+    cursor: pointer;
+}
+
+body .menu_dropdown_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    height: 90px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2F2B2C;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+body .dropdown_header_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    font-size: 24px; 
+    font-weight: 300;
+}
+
+.menu_dropdown_2 p {
+    text-align: right;
+    margin-right: 12px;
+    font-weight: 300;
+}
+
+.menu_dropdown_2 h2 {
+    padding: 1px 7px 2px;
+}
+
+.dropdown_header_2 img {
+   
+}
+
+/*////////// Media Queries //////////*/
+
+@media only screen and (max-width: 1306px) {
+        .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 458px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }   
+}
+
+@media only screen and (max-width: 1251px) {
+    .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 400px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }     
+
+    .footer_content_center .mapouter {
+        text-align: right;
+        height:219px; 
+        width:400px;
+    }
+    .footer_content_center .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:219px;
+        width:400px;
+    }    
+}
+
+@media only screen and (max-width: 1180px) {
+    .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 380px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }     
+
+    .footer_content_center .mapouter {
+        text-align: right;
+        height:219px; 
+        width:380px;
+    }
+    .footer_content_center .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:219px;
+        width:380px;
+    }    
+}
+
+@media only screen and (max-width: 1150px) {
+    .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 350px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }     
+
+    .footer_content_center .mapouter {
+        text-align: right;
+        height:219px; 
+        width:350px;
+    }
+    .footer_content_center .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:219px;
+        width:350px;
+    }    
+}
+
+@media only screen and (max-width: 1112px) {
+    .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 320px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }
+    .hamb_container {
+        width: 95%;
+    }     
+
+    .footer_content_center .mapouter {
+        text-align: right;
+        height:219px; 
+        width:320px;
+    }
+    .footer_content_center .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:219px;
+        width:320px;
+    }    
+}
+
+@media only screen and (max-width: 1080px) {
+    .footer_content_center {
+        display: flex;
+        align-self: center;
+        height: 219px;
+        width: 300px;
+        margin-left: -4px;
+        background-color: #FFFFFF;
+        border: 4px solid #413E3E;
+    }     
+
+    .footer_content_center .mapouter {
+        text-align: right;
+        height:219px; 
+        width:300px;
+    }
+    .footer_content_center .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:219px;
+        width:300px;
+    }
+    .main_content_left {
+        display: flex;
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 1051px) {
+    .footer_content_center {
+        display: none;
+    }   
+
+    header .header_main .main_content_left {
+        display: none;
+    }  
+
+    header .header_main .main_content_right button {
+        display: none;
+    } 
+    
+    header .header_main .main_content_right .lang {
+        margin-left: 10px;
+    }
+
+    header .header_main .hamb_menu {
+        background-image: url(../img/Hamb_menu.svg);
+        height: 12px; 
+        width: 20px;
+    }
+
+    .header_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        height: 242px;
+        margin: 0 auto;
+    }
+
+    header .header_main .main_content_right {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;   
+        width: 126px;
+    }
+
+    .header_main .logo {
+        margin-left: 106px;
+    }
+
+}
+
+@media only screen and (min-width: 1052px) {
+    header .header_main .hamb_menu {
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 1017px) {
+    .header_main {
+        height: 180px;
+    }
+    .header_main .logo img {
+        height: 150px;
+        width: 150px;       
+    }
+    .banner .banner_img {
+        height: 401px;
+    }
+    .banner .banner_img_bjor {
+        height: 401px;
+    }
+    .banner .hamb_banner_img {
+        height: 401px;
+    }
+    .info_box {
+        height: 163px;
+        width: 288px;
+    }   
+    .info_gledi {
+        font-size: 46px;
+    } 
+    .info {
+        height: 222px;
+    }
+    .info .info_text h1 {
+        font-size: 50px;
+        padding: 13px;
+    }
+    .info .info_text p {
+        font-size: 20px;
+    }
+    .info .info_text {
+        width: 45.4%;
+    }
+    .banner_2 .banner_2_img {
+        height: 316px;
+    }
+
+}
+
+@media only screen and (max-width: 941px) {
+    .info .info_text {
+        width: 57.4%;
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .info .info_text {
+        width: 61.4%;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .info .info_text {
+        width: 70.4%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .header_contact .content_left .e_mail {
+        display: none;
+    } 
+    .header_main {
+        height: 110px;
+    }  
+    .header_main .logo img {
+        height: 94px;
+        width: 94px;
+    }  
+    .banner .banner_img {
+        height: 205px;
+    }
+    .banner_2 .banner_2_img {
+        height: 205px;
+    }
+    .banner .banner_img_bjor {
+        height: 205px;
+    }
+    .banner .banner_img_umokkur {  
+    height: 205px;
+    }
+    .banner .hamb_banner_img {
+        height: 205px;
+    }
+
+    .info_gledi {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .info_box {
+        height: 122px;
+        width: 163px;
+    }
+    .info {
+        height: 149px;
+    }
+    .info .info_text {
+        height: 149px;
+        width: 80.4%;
+    }
+    .info .info_text h1 {
+        font-size: 36px;
+        padding: 13px;
+    }
+    .info .info_text p {
+        font-size: 17px;
+    }
+    .bjor_card {
+        height: 304px;
+        width: 260px;
+    }
+    .season_logo_1 {
+        margin-left: -48px;
+        margin-top: -25px;
+    }
+    .season_logo_2 {
+        margin-left: 40px;
+        margin-top: -104px;
+    }
+    .bjor_txt_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 191px;
+        font-size: 32px;
+        color: #2F2B2C;
+    }
+    .line {
+        height: 150px;
+        margin-bottom: 23px;
+    }
+    .bjor_card h2 { 
+        font-size: 35px;
+    }
+    
+    
+}   
+@media only screen and (max-width: 680px) {
+    footer .footer {
+        display: none;
+    }
+} 
+@media only screen and (min-width: 681px) {
+    footer .mobile_footer {
+        display: none;
+    }
+    footer .sub_footer {
+        display: none;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .info .info_text {
+        height: 149px;
+        width: 83.4%;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .header_contact_wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 616px) {
+    .info .info_text {
+        height: 149px;
+        width: 89.4%;
+    }
+    .mobile_footer_left {
+        font-size: 14px;
+    }
+    .mobile_footer_left h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .mobile_footer_right .simi_postur p {
+        font-size: 14px;
+    }
+    .mobile_footer_right .trip {
+        margin-bottom: -15px;
+        height: 95px;
+    }
+    .mobile_footer_right .wakeup {
+        height: 83px;
+    }
+    .main_content_right input {
+        width: 71px;
+    }
+    header .header_main .main_content_right {
+        width: 71px;
+    }
+    header .header_main .main_content_right .lang {
+        display: none;
+    }
+    .header_main .logo {
+        margin-left: 51px;
+    }
+}
+@media only screen and (max-width: 486px) {
+    .mobile_footer_right .wakeup {
+        height: 80px;
+    }
+    .mobile_footer_right .trip {
+        margin-bottom: -15px;
+        height: 93px;
+    }
+    .header_main {
+        height: 110px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 478px) {
+    .mobile_footer_right .wakeup {
+        height: 70px;
+    }
+    .mobile_footer_right .trip {
+        margin-bottom: -12px;
+        height: 80px;
+    }
+    /* .info_rettir .fb-page {
+        height:300px;
+        width: 300px;
+    } */
+}
+@media only screen and (max-width: 443px) {
+    .info .info_text {
+        width: 95.4%;
+    }    
+    .info .info_text p {
+        font-size: 16px;
+    }
+    .mobile_footer_left h3 {
+        font-size: 18px;
+    }
+    .mobile_footer_right .simi_postur p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header_main .logo {
+        margin-left: 51px;
+    }
+    .main_content_right {
+        width: 71px;
+    }
+    .mobile_footer_right .simi_postur p {
+        font-size: 15px;
+    }
+    .mobile_footer_left {
+        font-size: 15px;
+    }
+    .mobile_footer_right .wakeup {
+        height: 51px;
+        margin-bottom: -13px;
+    }
+    .mobile_footer_right .trip {
+        margin-bottom: -24px;
+        height: 63px;
+    }
+    .umokkur_wrapper {
+        width: 90%;
+    }
+    .top_content_pic {
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+    }
+    .top_content .blue_box {
+        position: absolute;
+        left: 28px;
+        top: 269px;
+        height: 288px;
+        width: 320px;
+        font-size: 18px;
+    }
+    .blue_box .txt_box {
+        height: 200px;
+        width: 90%;
+    }
+    .blue_box .txt_box {
+        justify-content: space-evenly;
+        height: 288px;
+        width: 90%;
+    }
+    .umokkur_wrapper .top_content {
+        height: 480px;
+    }
+    .umokkur_wrapper .top_content .blue_box .txt_box h2 {
+        font-size: 42px;
+    }
+    .top_content_1 {
+        height: 332px;
+    }
+    .top_content .blue_box .txt_box p {
+        padding-top: 18px;
+    }
+    .top_content_1_pic {
+        height: 414.5px;
+        width: 211px;
+        background-size: contain;
+        z-index: 3;
+        left: 120px;
+    }
+    .red_box {
+        position: absolute;
+        left: 0px;
+        top: 15px;
+        height: 544px;
+        width: 250px;
+        font-size: 18px;
+    }
+    .red_box .txt_box_1 {
+        height: 544px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .red_box .txt_box_1 h2 {
+        font-size: 42px;
+        margin-top: 46px;
+    }
+    .red_box .txt_box_1 p {
+        margin: 18px auto;
+        width: 80%;
+        text-align: left;
+    }
+    .bottom_content {
+        height: 544px;
+    }
+    .bottom_content_1 .bottom_content_pic {
+        height: 253px;
+        width: 349px;
+        background-size: contain;
+        margin: 0 0 0 14px;
+        background-image: url(../img/islenski.jpg);
+    }
+    .bottom_content_1 {
+        height: 253px;
+    }
+} 
