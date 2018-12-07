@@ -167,17 +167,33 @@ leit.onkeyup = function(){
   
 }
 
-
-
-
-var header = document.querySelector("header");
 var burger_btn = document.querySelector(".hamb_menu");
+var headerMain = document.querySelector(".header_main");
+var burger_menu = function (){
+      
+    if(burger_btn.classList.contains("active")){
+    burger_btn.classList.toggle("active") 
+    burger_btn.innerHTML = `
+    <div class="hamb_menu"></div>
+    <div class="main_content_left">
+        <div class="button">
+            <img src="img/arrow.svg"/>
+            <button class="dropDown">Matseðill</button>
+        </div>
+        <div class="button_2">
+            <img src="img/arrow.svg"/>
+            <button class="dropDown">Drykkir</button>
+        </div>
+    </div>
+    `
+    } 
+    else {
+        burger_btn.classList.toggle("active") 
+        burger_btn.innerHTML = `
 
-burger_menu = function(){
-    header.innerHTML += `
+    <div class="hamb_menu">
         <div class="mobile_hamb_menu">
             <div class="mobile_hamb_container">
-                <div class="x_btn"></div>
                 <h2>Matseðill</h2>
                 <p>Minni réttir</p>
                 <p>Aðalréttir</p>
@@ -190,98 +206,24 @@ burger_menu = function(){
                 <h2 class="btn_heim">Heim</h2>
             </div>
         </div>
-    ` 
-    var btn_bjor_1 = document.querySelector(".btn_bjor_1");
-    btn_bjor_1.onclick = bjorPage;
-    var btn_burger_1 = document.querySelector(".btn_burger_1");
-    btn_burger_1.onclick = burgerPage;
-    var btn_heim = document.querySelector(".btn_heim");
-    btn_heim.onclick = homePage;
-    var btn_umokkur = document.querySelector(".btn_umokkur");
-    btn_umokkur.onclick = umOkkur;
-    var btn_x = document.querySelector(".x_btn");
-    btn_x.onclick = normal;
-
-    function normal(){
-        header.innerHTML = `
-        <nav>
-        <div class="header_contact">
-            <div class="header_contact_wrapper">
-                <div class="content_left">
-                    <div>
-                        <img src="img/simi.svg" alt="síma logo">
-                        <a href="https://ja.is/islenski-barinn/" title="Símanúmer hlekkur">
-                            <p>+354 517-6767</p>
-                        </a>
-                    </div>
-                    <div class="e_mail">
-                        <a href="mailto:postur@islenskibarinn.is">
-                            <img class="postur_kort" src="img/postur.svg" alt="umslag logo"><p>postur@islenskibarinn.is</p>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.google.com/maps/place/%C3%8Dslenski+barinn/@64.1469123,-21.935277,17z/data=!3m1!4b1!4m5!3m4!1s0x43812fcd8fbbeea9:0xb747b528932f1372!8m2!3d64.1469123!4d-21.933083" title="Kort hlekkur">
-                            <img class="postur_kort" src="img/stadsetning.svg" alt="staðsetningar logo"><p>Kort</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="content_right">
-                    <div>
-                        <a href="https://www.facebook.com/islenski/" title="Facebook hlekkur">
-                            <img src="img/Facebook.svg" alt="facebook hlekkur"/>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#" title="Instagram hlekkur">
-                            <img src="img/Instagram.svg" alt="instagram hlekkur">
-                        </a>
-                    </div>  
-                </div> 
-            </div> 
-        </div>
-        <div class="header_main">
-            <div class="hamb_menu"></div>
-            <div class="main_content_left">
-                <div class="button">
-                    <img src="img/arrow.svg"/>
-                    <button class="dropDown">Matseðill</button>
-                </div>
-                <div class="button_2">
-                    <img src="img/arrow.svg"/>
-                    <button class="dropDown">Drykkir</button>
-                </div>
-            </div>
-            <div class="logo">
-                <div>
-                    <a href="index.html" title="Logo íslenska barsins">
-                        <img src="img/LOGO.svg" alt="mynd af logó íslenska barsins"/>
-                    </a>
-                </div>
-            </div>
-            <div class="main_content_right">
-                <div class="button_3">
-                    <button>Um Okkur</button>
-                </div>
-                <div class="search">
-                    <input type="search" placeholder="   Leita">
-                </div>
-                <div class="lang">
-                    <a href="#" title="íslenska/enska">
-                        <img src="img/Fáni-btn.svg">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-        `
-
-    
+    </div>
+        ` 
+            var btn_bjor_1 = document.querySelector(".btn_bjor_1");
+            btn_bjor_1.onclick = bjorPage;
+            var btn_burger_1 = document.querySelector(".btn_burger_1");
+            btn_burger_1.onclick = burgerPage;
+            var btn_heim = document.querySelector(".btn_heim");
+            btn_heim.onclick = homePage;
+            var btn_umokkur = document.querySelector(".btn_umokkur");
+            btn_umokkur.onclick = umOkkur;
     }
-
 }
 burger_btn.onclick = burger_menu;
 
 
 
 
-    
+
+
+
+

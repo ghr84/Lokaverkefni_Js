@@ -726,12 +726,14 @@ footer .mobile_footer {
     color: #2F2B2C;
 }
 .mobile_hamb_menu .mobile_hamb_container {
-    width: 94.27px;
-    height: 300px;
-    margin-top: -65px;
+    width: 95.27px;
+    height: 302px;
+    padding: 8px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #FFFFFF;
    
 }
 .mobile_hamb_menu .mobile_hamb_container h2 {
@@ -994,6 +996,8 @@ body .dropdown_header_2 {
         background-image: url(../img/Hamb_menu.svg);
         height: 12px; 
         width: 20px;
+        z-index: 1;
+        cursor: pointer;
     }
 
     .header_main {

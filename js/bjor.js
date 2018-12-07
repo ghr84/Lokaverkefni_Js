@@ -84,9 +84,7 @@ var bjorPage = function(){
                     </div>    
                 </section>
                 <section>
-                    <div class="bjor_container">
-                        <script src="js/bjor.js"></script>
-                    </div>
+                    <div class="bjor_container"></div>
                 </section>
     `   
     var bjor_container = document.querySelector(".bjor_container");
